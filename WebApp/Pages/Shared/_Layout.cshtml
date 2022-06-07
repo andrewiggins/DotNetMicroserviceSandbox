@@ -36,6 +36,14 @@
         </div>
     </footer>
 
+    @if (User.Identity?.IsAuthenticated ?? false)
+    {
+        <script type="text/javascript">
+            window.serverAccount = {
+                login_hint: "@User.Identity?.Name"
+            };
+        </script>
+    }
     <script src="~/lib/msal-browser.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 

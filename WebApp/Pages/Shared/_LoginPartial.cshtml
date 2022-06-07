@@ -7,7 +7,7 @@
 
 @if (User.Identity?.IsAuthenticated == true)
 {
-    <span>Hello @displayName</span>
+    <span title="@User.Identity?.Name">Hello @displayName</span>
     <a class="btn btn-link" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sign
         out</a>
 }
