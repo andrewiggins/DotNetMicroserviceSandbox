@@ -1,0 +1,11 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "private": "true",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@azure/msal-browser": "^2.25.0",
+    "spectre.css": "^0.5.9"
+  }
+}
