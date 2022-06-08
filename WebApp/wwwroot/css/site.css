@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   margin-bottom: 60px;
   padding: 0 1.5rem;
+  overflow: auto;
 }
 
 a:visited {
